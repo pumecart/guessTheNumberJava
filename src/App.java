@@ -5,7 +5,7 @@ import java.awt.GridLayout;
 
 import javax.swing.BorderFactory;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
+// import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 import java.util.Random;
@@ -47,27 +47,6 @@ public class App {
         int randomNumber = rand.nextInt(playerNum) + 1;
         // System.out.println("Random number is " + randomNumber);
 
-
-        
-        int g = -1;
-        while(g < 0){
-            String firstInput = JOptionPane.showInputDialog("Between 1 and what number do you want to play?: (For example 100, 150, 200, 2000)");
-            if(firstInput.length() > 0){
-                g++;
-                System.out.println("Thank you!");
-            }else{
-                System.out.println("Please enter a number!");
-            }
-        }
-
-        //         String secondInput = JOptionPane.showInputDialog("Enter your guess");
-        //     }else{
-        //         String thirdInput = JOptionPane.showInputDialog("Please enter a guess to continue");
-        //     }  
-
-        // }
-        
-        
         while(true){
 
            
@@ -96,6 +75,29 @@ public class App {
                 System.out.println("Nope!  The number is lower.  Guess again.");
             }
         }
+
+
+
+        // int g = -1;
+        // while(g < 0){
+        //     String firstInput = JOptionPane.showInputDialog("Between 1 and what number do you want to play?: (For example 100, 150, 200, 2000)");
+        //     if(firstInput.length() > 0){
+        //         g++;
+        //         System.out.println("Thank you!");
+        //     }else{
+        //         System.out.println("Please enter a number!");
+        //     }
+        // }
+
+        //         String secondInput = JOptionPane.showInputDialog("Enter your guess");
+        //     }else{
+        //         String thirdInput = JOptionPane.showInputDialog("Please enter a guess to continue");
+        //     }  
+
+        // }
+        
+        
+        
         
     }
 }
