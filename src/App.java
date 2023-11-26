@@ -11,6 +11,9 @@ import javax.swing.JPanel;
 import java.util.Random;
 import java.util.Scanner;
 
+
+
+
 public class App {
     public static void main(String[] args)  {
 
@@ -44,6 +47,8 @@ public class App {
         int randomNumber = rand.nextInt(playerNum) + 1;
         // System.out.println("Random number is " + randomNumber);
 
+
+        
         int g = -1;
         while(g < 0){
             String firstInput = JOptionPane.showInputDialog("Between 1 and what number do you want to play?: (For example 100, 150, 200, 2000)");
