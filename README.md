@@ -4,7 +4,7 @@ This is my Guess the Number application in Java.  I decided on this project beca
 
 Here is a link to your YouTube demonstration. It is a 4-5 minute demo of the software running and a walkthrough of the code where I will focus mainly on what I learned creating this app.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/idOrOVEvGrE)
 
 # Development Environment
 
